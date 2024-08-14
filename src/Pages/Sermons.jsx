@@ -3,13 +3,16 @@ import Sermon from '../assets/sermon.png'
 import Navbar from '../Components/Navbar'
 import Banner from '../assets/sermon-banner.png'
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
+import { GrLocationPin } from 'react-icons/gr'
+import { IoTimeOutline } from 'react-icons/io5'
 
 
 const info =[
-    {title: "TODAY'S EVENT", topic: "HOW TO TRULY TRUST SOMEONE", details: "How sure do you trust God? Believe in him and you are saved", date: "20 JULY"},
-    {title: "TODAY'S EVENT", topic: "Faith is a process, not a destination", details: " Embrace the process, trust in God's plan, and let your faith continue to evolve.", date: "20 JULY"},
-    {title: "TODAY'S EVENT", topic: "there is nothing impossible", details: "With God, nothing is impossible. He turns our greatest challenges into victories.", date: "20 JULY"},
-    {title: "TODAY'S EVENT", topic: "my worship is my weapon", details: "The word of God is a weapon", date: "20 JULY"},
+    {title: "TODAY'S EVENT", topic: "HOW TO TRULY TRUST SOMEONE", details: "How sure do you trust God? Believe in him and you are saved", date: "20 JULY", link: 'sermonEvent/event1'},
+    {title: "TODAY'S EVENT", topic: "Faith is a process, not a destination", details: " Embrace the process, trust in God's plan, and let your faith continue to evolve.", date: "20 JULY", link: 'sermonEvent/event2'},
+    {title: "TODAY'S EVENT", topic: "there is nothing impossible", details: "With God, nothing is impossible. He turns our greatest challenges into victories.", date: "20 JULY", link: 'sermonEvent/event3'},
+    {title: "TODAY'S EVENT", topic: "my worship is my weapon", details: "The word of God is a weapon", date: "20 JULY", link: 'sermonEvent/event4'},
 ]
 
 const Sermons = () => {
@@ -30,12 +33,28 @@ const Sermons = () => {
             {
                 info.map((item, id) => {
                     return(
-                        <div key={id} className='bg-white p-2 px-5'>
+                      <Link to={item.link}  key={id}>
+                        <div className='group duration-300 ease-linear'>
+                        <div className='bg-white p-2 px-5'>
                           <p className='text-lg font-semibold ml-48 pb-4 w-8 text-right'>{item.date}</p>
                           <p className='text-sm uppercase text-orange-400'>{item.title}</p>
                           <p className='text-xl font-semibold uppercase'>{item.topic}</p>
                           <p className='text-sm'>{item.details}</p>
+                          <div className='flex gap-2 items-center my-4'>
+                            <IoTimeOutline />
+                            <div>
+                              <p>FRIDAY, 09:30 AM</p>
+                              <p>SATURDAY, 09:30 AM</p>
+                            </div>
+                          </div>
+                          <div className='flex gap-1 items-center mb-4'>
+                            <GrLocationPin />
+                              <p>ACCRA, GHANA</p>
+                          </div>
                         </div>
+                        <div className='bg-orange-200 h-4 w-full group-hover:bg-orange-400 duration-300 ease-linear'/>
+                        </div>
+                      </Link>
                     )
                 })
             }
