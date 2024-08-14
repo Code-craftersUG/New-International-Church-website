@@ -3,6 +3,7 @@ import Logo from '../assets/logo.png'
 import FB from '../assets/fb.png'
 import X from '../assets/x.png'
 import LinkedIn from '../assets/linkedin.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -19,11 +20,18 @@ const Footer = () => {
       <div className='flex flex-col gap-3'>
         <p>QUICK LINKS</p>
         <div className='flex flex-col gap-1 text-[12px]'>
+          <Link to='/'>
             <p>HOME</p>
+          </Link>
+          <Link to='/about'>
             <p>ABOUT US</p>
+          </Link>
+          <Link to='/sermon'>
             <p>SERMONS</p>
-            <p>EVENTS</p>
+          </Link>
+          <Link to='/blog'>
             <p>BLOGS</p>
+          </Link>
         </div>
       </div>
       <div className='flex flex-col gap-3'>

@@ -7,7 +7,10 @@ import Value from '../assets/value.png'
 import Charity from '../assets/charity.png'
 import Invite from '../assets/invite.png'
 import Footer from '../Components/Footer'
-import Pastor1 from '../assets/pastor1.png'
+import Pastor1 from '../assets/goerge.png'
+import Pastor2 from '../assets/david.png'
+import Pastor3 from '../assets/ishmeal.png'
+import Pastor4 from '../assets/john.png'
 
 const About = () => {
   return (
@@ -80,8 +83,8 @@ const About = () => {
             <div className='grid grid-cols-4 gap-5 mx-10 mt-5'>
                 <div className='bg-white rounded-md flex items-center flex-col p-2'>
                     <img src={Pastor1} alt='' className='w-[150px]'/>
-                    <div className='flex flex-col gap-3'>
-                        <p>KIM BOWEN</p>
+                    <div className='flex flex-col gap-3 justify-center items-center'>
+                        <p className='font-bold text-xl'>PASTOR GOERGE</p>
                         <p>Pastor, Church</p>
                         {/* <div>
                             <img src={} alt='' />
@@ -91,10 +94,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className='bg-white rounded-md flex items-center flex-col p-2'>
-                    <img src={Pastor1} alt='' className='w-[150px]'/>
-                    <div className='flex flex-col gap-3'>
-                        <p>KIM BOWEN</p>
-                        <p>Pastor, Church</p>
+                    <img src={Pastor2} alt='' className='w-[150px]'/>
+                    <div className='flex flex-col gap-3 justify-center items-center'>
+                        <p className='font-bold text-xl'>DAVID AWUDI</p>
+                        <p>NIC ADENTA</p>
                         {/* <div>
                             <img src={} alt='' />
                             <img src={} alt='' />
@@ -103,10 +106,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className='bg-white rounded-md flex items-center flex-col p-2'>
-                    <img src={Pastor1} alt='' className='w-[150px]'/>
-                    <div className='flex flex-col gap-3'>
-                        <p>KIM BOWEN</p>
-                        <p>Pastor, Church</p>
+                    <img src={Pastor3} alt='' className='w-[200px]'/>
+                    <div className='flex flex-col gap-3 justify-center items-center'>
+                        <p className='font-bold text-xl'>ISHMAEL LAMPTEY</p>
+                        <p>NIC LEGON</p>
                         {/* <div>
                             <img src={} alt='' />
                             <img src={} alt='' />
@@ -115,15 +118,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className='bg-white rounded-md flex items-center flex-col p-2'>
-                    <img src={Pastor1} alt='' className='w-[150px]'/>
-                    <div className='flex flex-col gap-3'>
-                        <p>KIM BOWEN</p>
-                        <p>Pastor, Church</p>
-                        {/* <div>
-                            <img src={} alt='' />
-                            <img src={} alt='' />
-                            <img src={} alt='' />
-                        </div> */}
+                    <img src={Pastor4} alt='' className='w-[150px]'/>
+                    <div className='flex flex-col gap-3 justify-center items-center'>
+                        <p className='font-bold text-xl'>APOSTLE JOHN E. SAGOE</p>
+                        <p>NIC SWITZERLAND</p>
                     </div>
                 </div>
             </div>
