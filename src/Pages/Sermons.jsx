@@ -9,10 +9,10 @@ import { IoTimeOutline } from 'react-icons/io5'
 
 
 const info =[
-    {title: "TODAY'S EVENT", topic: "HOW TO TRULY TRUST SOMEONE", details: "How sure do you trust God? Believe in him and you are saved", date: "20 JULY", link: 'sermonEvent/event1'},
+    {title: "TODAY'S EVENT", topic: "HOW TO TRULY TRUST SOMEONE", details: "How sure do you trust God? For who so ever believe in him shall not perish but have ever lasting life.", date: "20 JULY", link: 'sermonEvent/event1'},
     {title: "TODAY'S EVENT", topic: "Faith is a process, not a destination", details: " Embrace the process, trust in God's plan, and let your faith continue to evolve.", date: "20 JULY", link: 'sermonEvent/event2'},
     {title: "TODAY'S EVENT", topic: "there is nothing impossible", details: "With God, nothing is impossible. He turns our greatest challenges into victories.", date: "20 JULY", link: 'sermonEvent/event3'},
-    {title: "TODAY'S EVENT", topic: "my worship is my weapon", details: "The word of God is a weapon", date: "20 JULY", link: 'sermonEvent/event4'},
+    {title: "TODAY'S EVENT", topic: "my worship is my weapon", details: "The word of God is a weapon. No weapon fashioned against you shall prosper , says the Lord.", date: "20 JULY", link: 'sermonEvent/event4'},
 ]
 
 const Sermons = () => {

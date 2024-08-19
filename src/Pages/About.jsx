@@ -84,7 +84,7 @@ const About = () => {
                 <div className='bg-white rounded-md flex items-center flex-col p-2'>
                     <img src={Pastor1} alt='' className='w-[150px]'/>
                     <div className='flex flex-col gap-3 justify-center items-center'>
-                        <p className='font-bold text-xl'>PASTOR GOERGE</p>
+                        <p className='font-bold text-xl'>PASTOR</p>
                         <p>Pastor, Church</p>
                         {/* <div>
                             <img src={} alt='' />
