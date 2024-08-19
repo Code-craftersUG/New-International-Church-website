@@ -1,0 +1,94 @@
+.bg-orange-200{
+  display: flex;
+  flex-direction: column;
+    justify-content: center; 
+    height: 100vh;
+    padding-top: 1%;
+   padding-left: 10%;
+    background-color:#FFEAD6 ;
+}
+
+.bg-orange-100{
+    color: black; 
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+   
+}
+.mb-41{
+  width: 500;
+  height: 300;
+  display: flex;
+  flex-direction: row;
+    align-items:left; 
+   
+}
+
+
+.button{
+  background-color: #FFD2A4;
+}
+
+.upcoming-sermon{
+  margin-left: 35%;
+  font-size:200%;
+  font-weight: bold;
+}
+
+.ministry{
+  margin-left: 45%;
+}
+
+.Image1{
+width: 80%;
+margin-left: 10%;
+
+}
+
+.w200{
+  background-color: #FFEAD6;
+}
+
+.text-center p-4{
+  background-color:#FFEAD6;
+}
+
+.image-div{
+  background-color:#FFD2A4;
+}
+
+.w1-full{
+  width: 30%;
+  height: 40%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
