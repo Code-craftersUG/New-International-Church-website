@@ -30,7 +30,7 @@ const Contact = () => {
                 <h3>code.crafterz07@gmail.com</h3>
             </div>
             <div>
-                <h3>Find Us Here:</h3>
+                <h3></h3>
                 
             </div>
         </div>
